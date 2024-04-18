@@ -4,12 +4,8 @@
      text-decoration: none;
      list-style: none;
      box-sizing: border-box;}
-     html {
-      scroll-behavior: smooth;
-  }
 
 body{      background-color:#141416;
-           width: 100%; 
             font-family: Arial, sans-serif;
             animation: example 20s infinite;
           }
@@ -20,8 +16,6 @@ body{      background-color:#141416;
           /*  75% { background-color: green; }*/
          /*   100% { background-color: red; }*/
         }
-
-
 
 .navbar {
     /* background-color: #333;*/
@@ -586,8 +580,8 @@ ul {
 
 
 
-@media    (max-width:450px){
- /* body{overflow: hidden;}*/
+@media    (max-width:850px){
+ /*body{width: 100%;}*/
 .contentt{display: block;}
 .front{width: 100%;}
 .care {  margin-top: 10px;width: 100%;padding-left: 0px}
@@ -646,7 +640,8 @@ ul {
 .crownn{width: 100%;padding: 5%;padding-bottom: 490px;}
 
 
-.exempel2{width: 1000%;}
+.exempel2{width: 100%;}
+
 
 .exempel2 img{width: 450px;height: 350px;margin-left: -10px;margin-top: 50px;}
 
@@ -668,21 +663,7 @@ ul {
 .contact-side p{color: white;padding: 10%;}
 }
 
-/*
 
-
-
-
-
-.contact-side{width: 60%;background-image: url(img/image.svg);background-repeat: no-repeat;text-align: center;padding-top: 180px;}
-
-
-.contact-side-p1{padding-bottom: 20px;}
-.contact-side-p2{padding-bottom: 20px;font-size: 18px;}
-.contact-side-p2 span a{font-weight: bold;color: #daa520;letter-spacing: 1.2px;}
-.contact-side h1{color:white}
-
-*/
 
 
 
