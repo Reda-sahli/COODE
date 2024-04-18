@@ -580,8 +580,8 @@ ul {
 
 
 
-@media    (max-width:850px){
- /*body{width: 100%;}*/
+@media    (max-width:500px){
+body{width: 100%;}
 .contentt{display: block;}
 .front{width: 100%;}
 .care {  margin-top: 10px;width: 100%;padding-left: 0px}
