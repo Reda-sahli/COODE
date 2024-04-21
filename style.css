@@ -576,8 +576,11 @@ body{width: 100%;}
 .side{width: 100%;margin-top: 0px;margin-left: 0px;}
 .side img{ transform: rotate(90deg);margin-top: -600px;margin-left: 70px;}
 .all{width: 100%;}
-.hi-iam{height: 150px;}
-.color img{margin-top: -150px;margin-left: -750px;}
+.hi-iam{height: 150px;margin-top: 160px;}
+
+.color img{margin-top: -530px;margin-left: -750px;
+
+}
 
 /*------------------------       page 2    --------------------------------------------------*/
 .intervi{display: block;height: fit-content;}
@@ -593,7 +596,10 @@ body{width: 100%;}
 .side-p p{line-height: 25px;}
 
 .phhhtt {height: 100px;}
-.phhhtt img{margin-right: -50px;filter: blur(1.6px);margin-top: -200px;}
+.phhhtt img{margin-right: -80px;filter: blur(1.6px);margin-top: -200px;}
+
+
+
 .papapa{padding: 2%;padding-top: 10px;padding-bottom: 10px;}
 
 .lesicons-lilber{padding-top: 40px;padding-top: 50px;height: fit-content;}
