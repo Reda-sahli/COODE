@@ -13,8 +13,44 @@
    
     <script src="java.js"></script>
 </head>
-<body>
+<body  onload="move()" >
 
+  <div id="preloader">
+    <div id="progressBar">
+      <div></div>
+    </div>
+  </div>
+
+  <style>
+   
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #707070;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    #progressBar {
+      width: 50%;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    #progressBar div {
+      height: 100%;
+      background-color: #545454;
+      width: 0%;
+      border-radius: 5px;
+      transition: width 0.5s;
+    }
+    </style>
+<!---------------->
  <div class="top-wiht">
 <!--------------------       nav bare      ---------------------------->
     <div id="Home" class="content">
@@ -312,6 +348,27 @@
     });
     </script>
 
+
+
+
+
+<script>
+  // JavaScript to handle the progress bar
+  function move() {
+    var elem = document.getElementById("progressBar").firstElementChild; 
+    var width = 0;
+    var id = setInterval(frame, 20); // Adjust the speed of the counter by changing the interval
+    function frame() {
+      if (width >= 135) {
+        clearInterval(id);
+        document.getElementById("preloader").style.display = 'none'; // Hide the preloader
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+  </script>
 </body>
 
 </html>
