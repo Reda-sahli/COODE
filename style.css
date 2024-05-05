@@ -4,6 +4,7 @@
   --clr-light: #f0f8ff;
   --clr-gold: #daa520;
   --clr-bg: #141416;
+  --clr-moove:#f4aa49f3;
 }
 
 * {
@@ -87,9 +88,6 @@ body {
   color: black;
   border: #ddd 2px solid;
 }
-
-
-
 
 
 
@@ -1314,6 +1312,7 @@ ul {
     margin-top: -280px;
     margin-left: -750px;
   }
+  .centerr-list{justify-content: center;padding-bottom: 200px;margin-top: -300px;}
 
   /*---------------------------------------Page 4 ----------------------------------------------------------*/
 
