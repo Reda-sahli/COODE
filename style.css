@@ -103,8 +103,8 @@ body {
   font-size: larger;
   padding: 4%;
   padding-top: 0px;
-  margin-top: 5%;
-  color: #f0f8ff;
+  margin-top: 20%;
+  color: var(--clr-light);
   cursor: pointer;
   cursor: default;
 }
@@ -185,7 +185,7 @@ ul {
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
+  color: var(--clr-light);
   padding: 6px 10px;
   border-radius: 5px;
   opacity: 0;
@@ -210,7 +210,7 @@ ul {
   height: 50px;
   border-radius: 50%;
   color: #4d4d4d;
-  background-color: #fff;
+  background-color: var(--clr-light);
   transition: all 0.3s ease-in-out;
 }
 
@@ -226,7 +226,7 @@ ul {
 }
 
 .example-2 .icon-content a:hover {
-  color: white;
+  color: var(--clr-light);
 }
 
 .example-2 .icon-content a .filled {
@@ -301,7 +301,7 @@ ul {
 .color img {
   margin-top: -400px;
   margin-left: -550px;
-  filter: blur(1.6px);
+  /*filter: blur(1.6px);*/
 }
 
 /*     */
@@ -357,7 +357,7 @@ ul {
 
 .phhhtt img {
   margin-right: 200px;
-  filter: blur(1.6px)
+ /* filter: blur(1.6px)*/
 }
 
 .parolee {
@@ -432,7 +432,7 @@ ul {
 }
 
 .colorrr img {
-  filter: blur(1.6px);
+  /*filter: blur(1.6px);*/
   margin-top: -335px;
   margin-left: -1250px;
 }
@@ -440,7 +440,7 @@ ul {
 .jnabb img {
   margin-top: -300px;
   margin-left: -1500px;
-  filter: blur(1.6px);
+  /*filter: blur(1.6px);*/
 }
 
 .Proget {
@@ -515,7 +515,6 @@ ul {
 
 .janabbb img {
   margin-top: -260px;
-  filter: blur(1.6px)
 }
 
 
@@ -633,7 +632,7 @@ ul {
 
 .pppp img {
   margin-top: -460px;
-  filter: blur(1.6px);
+
   margin-left: -600px;
 }
 
@@ -745,6 +744,19 @@ ul {
 
 /*------------------------------------------------*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .last {
   margin-left: 900px;
   margin-top: -300px;
@@ -752,7 +764,7 @@ ul {
 }
 
 .last img {
-  filter: blur(1.6px);
+
 }
 
 
@@ -766,7 +778,6 @@ ul {
 
 .pppp-pppp img {
   margin-top: -260px;
-  filter: blur(1.6px);
   margin-left: -600px;
 }
 
@@ -776,17 +787,17 @@ ul {
 
 .contact-me {
   width: 100%;
-  display: flex;
+  display: block;
   margin-top: 50px;
   padding-bottom: 100px;
 }
-
+/*
 .animation-sade {
   width: 40%;
 }
-
+*/
 .contact-side {
-  width: 60%;
+  width: 100%;
   background-image: none;
   background-repeat: no-repeat;
   text-align: center;
@@ -1151,7 +1162,7 @@ ul {
   }
 
   .side-titel h1 {
-    color: white;
+    color: var(--clr-light);
     font-size: 80px;
   }
 
@@ -1189,7 +1200,7 @@ ul {
 
   .phhhtt img {
     margin-right: -80px;
-    filter: blur(1.6px);
+
     margin-top: -200px;
   }
 
@@ -1228,7 +1239,7 @@ ul {
   }
 
   .pro2 p {
-    color: white;
+    color: var(--clr-light);
     letter-spacing: 0px;
     line-height: 30px;
     font-weight: bold;
@@ -1244,7 +1255,7 @@ ul {
 
   .janabbb img {
     margin-top: -260px;
-    filter: blur(1.6px)
+   
   }
 
   .proge-Est {
@@ -1270,7 +1281,7 @@ ul {
 
   .dark-romb img {
     font-size: 40px;
-    color: white;
+    color: var(--clr-light);
     width: 100px;
     height: 100px;
   }
@@ -1343,7 +1354,7 @@ ul {
 
   .dark-rombb img {
     font-size: 40px;
-    color: white;
+    color: var(--clr-light);
     width: 100px;
     height: 100px;
   }
@@ -1411,6 +1422,12 @@ ul {
   .contact-side p {
     color: var(--clr-light);
     padding: 10%;
+  }
+  
+
+  .wrapper {
+    left: 25%;
+
   }
 }
 
@@ -1501,7 +1518,7 @@ ul {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: var(--clr-light);
 }
 
 .banter-loader__box:nth-child(3n) {
@@ -2253,3 +2270,5 @@ ul {
     border-radius: 50%;
   }
 }
+.E-e{color: rgb(185, 185, 185);}
+.tool{color: var(--clr-light);}

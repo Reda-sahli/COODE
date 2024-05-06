@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="public/img/remove-icon.png">
   <title> Sahli reda || Front end Developer</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="animation-page.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <link rel="stylesheet" href="animation-page.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
@@ -27,6 +27,7 @@
 
       <div class="banter-Welcome">
         <!-----add same text-->
+
 
       </div>
 
@@ -71,10 +72,23 @@
     <div id="Home" class="content">
       <div class="navbar">
         <a href="index.html" class="navbar-brand"><img src="public/img/remove-icon.png" alt="Logo">Coode</a>
-        <div class="navbar-contact-cont"><a href="#contact">Contact</a></div>
+        <div class="navbar-contact-cont">
+          <!--------------------------------------->
+          
+       
+          <!------------------------------------>
+          <a href="#contact">Contact</a><label >
+            <!-------------
+            <input type="checkbox">
+            <div class="toggle-switch-background container"  onclick="toggleTheme()">
+              <div   onclick="toggleTheme()" class="toggle-switch-handle theme-switch"></div>
+            </div>
+          </label>
+          ---------->
+          </div>
       </div>
     </div>
-
+  
     <!------------------------------------------------------------------------>
     <!-----------------page 1----------------------->
 
@@ -89,7 +103,7 @@
           interfaces and useful interactions, developing
           rich web applications and seamless web
           experiences.</p>
-        <a href="#">About me ></a>
+      <!---- <a href="#">About me ></a>--->
         <!------Heloo user------>
         <div class="container__cont">
           <div class="content__cont">
@@ -336,7 +350,7 @@
   </div>
   </div>
   </div>
-</div>
+
 
 <!--------------Animationn-  Herooooo---------->
 
@@ -385,7 +399,7 @@
         <p class="Online">Online store for selling apparel & Trucks.</p>
         <p class="tecnologi"><span>Built with:</span> HTML,CSS , JavaScript,
           Firebase (NoSQL Database,Cloud Storage).</p>
-        <p class="visit"><a href="https://reda-sahli.github.io/Est-Proge2024/">visit the website ></a></p>
+          <p class="visitt"><a href="#">visit the website ></a></p>
       </div> <!-------end crow   ------>
 
       <div class="exempel1"> <!-------bigin exemplell1   ------>
@@ -442,7 +456,7 @@
         <p class="tecnologi"><span>Built with:</span> React, JavaScript,
           Custom Stripe Integration, Firebase (PHP,
           Cloud Storage, Hosting,Figma).</p>
-        <p class="visit"><a href="">visit the website ></a></p>
+        <p class="visit"><a href="#">visit the website ></a></p>
       </div> <!-------end crow   ------>
 
       <div class="exempel1"> <!-------bigin exemplell1   ------>
@@ -463,7 +477,10 @@
 
     <!----------------------------------------------------------conatct ----------------------------->
     <div class="contact-me">
-      <div class="animation-sade">
+  
+
+    
+        <!--------------------
         <div class="holder">
           <div class="candle">
             <div class="blinking-glow"></div>
@@ -472,21 +489,93 @@
             <div class="flame"></div>
           </div>
         </div>
-      </div>
+        
+        -------->
+     
 
-      <div class="contact-side" id="contact">
+      <div class="contact-side" id="contact">     
+        
+        <div class="wrapper">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div> 
+        </div>
+   
         <p class="contact-side-p1">What would you do if you had a software
           expert available at your fingertips?</p>
         <p class="contact-side-p2">Want to start new project? Or just say hey.
           You can also follow me on <span><a href="https://www.instagram.com/sahli_reda_/">Instagram.</a></span> </p>
-        <h1>coodenow@gmail.com</h1>
+        <h1><a class="tool" href="mailto:coodenow@gmail.com">coodenow@gmail.com</a></h1>
         <img class="old" id="" src="" with="500px" height="200" alt="">
       </div>
     </div>
     <!-----------------------------------------------------------stop         ---------------- -------------->
   </div>
 
-  </div>
+
+
+  <!--------------Footer------------------>
+
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul class="links">
+          <li><a href="#">About Me</a></li>
+        <!---------  <li><a href="#">Compressions</a></li>
+          <li><a href="#">Customers</a></li>----->
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#">Free Designs</a></li>
+          <li><a href="#">Latest Designs</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular Designs</a></li>
+          <li><a href="#">Art Skills</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="links">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Security</a></li>
+        
+      
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Me</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, accusantium..
+        </p>
+        <!--
+        <form action="#">
+          <input type="text" placeholder="Your email" required>
+          <button type="submit">SUBSCRIBE</button>
+        </form>------>
+        <div class="icons">
+          <i  href="#" class="fa-brands fa-facebook-f"></i>
+          <i  href="#" class="fa-brands fa-twitter"></i>
+          <i  href="#"class="fa-brands fa-linkedin"></i>
+          <i  href="#"class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </div> <!-------Fin proge------>
+
+
 
   <script>
     // JavaScript for the index page
@@ -524,12 +613,40 @@
 
        <!--  JavaScripts  -->
        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-       <script src="jquery-3.6.0.min.js"></script>
+       <script src="assets/js/jquery-3.6.0.min.js"></script>
        <!--  Plugins JS  -->
-       <script src="plugins.js"></script>
+       <script src="assets/js/plugins.js"></script>
        <!-- Map Js -->
        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRemITiP7JRWpZwLhVt-T2x5MeUFE2KWs"></script>
        <!--  Custom JS  -->
-       <script src="index.js"></script>
+       <script src="assets/js/index.js"></script>
+       <script>
+        function toggleTheme() {
+          const body = document.body;
+          const root = document.documentElement;
+          if (body.classList.contains('dark-theme')) {
+            body.classList.remove('dark-theme');
+            root.style.setProperty('--clr-light', '#f0f8ff');
+            root.style.setProperty('--clr-bg', '#141416');
+          } else {
+            body.classList.add('dark-theme');
+            root.style.setProperty('--clr-light', '#333333');
+            root.style.setProperty('--clr-bg', '#f0f0f0');
+          }
+          const currentTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+          localStorage.setItem('theme', currentTheme);
+        }
+      
+        // Check if a theme is saved in localStorage and apply it
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          document.body.classList.add(savedTheme + '-theme');
+          const root = document.documentElement;
+          if (savedTheme === 'dark') {
+            root.style.setProperty('--clr-light', '#333333');
+            root.style.setProperty('--clr-bg', '#f0f0f0');
+          }
+        }
+      </script>
 </body>
 </html>
